@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# React course 2023
+_by Ovidiu Latcu_
+
+
+Repo to follow along during the 2-day React course held by me.
+
+Pre-requisites:
+ - you just need `npm` or `yarn`
+
+How to use : 
+ - clone this repo
+ - run `yarn` or `npm install`
+ - run `yarn start` or `npm run start` which should start the server 
+ - follow along the course and write code
+ - each day code is also in it's own branch, eg: `git checkout day-1-code` etc.
+
+
+
+# This project was setup with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
