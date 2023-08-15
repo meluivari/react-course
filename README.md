@@ -1,3 +1,5 @@
+
+![1174949_js_react js_logo_react_react native_icon](https://github.com/ovy9086/react-course/assets/1138222/40146686-a82d-46ca-9d67-a2c54f30f0c6)
 # React course 2023
 _by Ovidiu Latcu_
 
