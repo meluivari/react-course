@@ -1,0 +1,11 @@
+.buttonCommon {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+.buttonActive {
+  @apply active:scale-95 active:opacity-80;
+}
+
+.buttonDisabled {
+  @apply bg-gray-400;
+}

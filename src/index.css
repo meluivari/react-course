@@ -14,16 +14,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.clickable-div {
-  cursor: pointer;
-  border-radius: 20;
-  transition: background-color 0.3s ease; /* Adding a smooth transition effect */
-}
-.clickable-div:hover {
-  border-radius: 20;
-  background-color: #ececec; /* Change the background color when hovering */
-}
-.clickable-div:active {
-  transform: scale(0.99); /* Scale down the element when pressed */
-  transition: transform 0.1s ease;
-}
