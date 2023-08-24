@@ -15,11 +15,11 @@ export const getMovies = (): Movie[] => [
   {
     id: 1,
     title: "Star Wars V: The Empire strikes back",
-    img: "https://imgur.com/klKfEvi",
+    img: "https://i.imgur.com/klKfEvi.jpeg",
   },
   {
     id: 2,
-    title: "Star Wars V|: Return of the Jedi",
+    title: "Star Wars VI: Return of the Jedi",
     img: "https://i.imgur.com/0kV0pS5.jpeg",
   },
 ];
