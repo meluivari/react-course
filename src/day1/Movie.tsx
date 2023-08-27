@@ -5,11 +5,8 @@ import React, { useState } from "react";
 
 type MovieProps = {
   title: string;
-  favorite?: boolean;
   img?: string;
   info?: string;
-  onAddFavorite?: () => void;
-  onRemoveFavorite?: () => void;
 };
 
 export function MovieRow({ img, title }: MovieProps) {

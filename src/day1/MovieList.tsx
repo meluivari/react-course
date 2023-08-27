@@ -4,7 +4,6 @@ import { MovieRow } from "./Movie";
 
 type Props = {
   listTitle?: string;
-  onItemClick: (movie: Movie) => void;
 };
 
 export function MovieList({ listTitle }: Props) {
