@@ -15,7 +15,7 @@ export const getMovies = (): Movie[] => [
   {
     id: 1,
     title: "Star Wars V: The Empire strikes back",
-    img: "https://imgur.com/klKfEvi",
+    img: "https://imgur.com/klKfEvi.jpeg",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const getMovies = (): Movie[] => [
 ];
 
 export const getMoviesAsync = async () => {
-  return new Promise((resolve) => {
+  return new Promise<Movie[]>((resolve) => {
     setTimeout(() => {
       resolve(getMovies());
     }, 800);
